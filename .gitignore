@@ -7,7 +7,7 @@ venv/
 
 # Node
 webapp/node_modules/
-webapp/dist/
+
 
 # Env/Secrets
 .env
