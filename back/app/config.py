@@ -1,11 +1,18 @@
 import os
+import logging
 from pydantic import BaseModel
 from dotenv import load_dotenv
 
+logger = logging.getLogger(__name__)
+
 # Load default .env, then optionally keys.env if present
 load_dotenv()
+logger.info("📋 Загрузка .env файла...")
 if os.path.exists("keys.env"):
+    logger.info("🔑 Загрузка keys.env...")
     load_dotenv("keys.env", override=True)
+else:
+    logger.warning("⚠️ Файл keys.env не найден, используем .env или переменные окружения")
 
 
 class Settings(BaseModel):
