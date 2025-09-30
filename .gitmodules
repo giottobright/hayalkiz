@@ -1,0 +1,6 @@
+[submodule "back"]
+	path = back
+	url = https://github.com/giottobright/back.git
+[submodule "webapp"]
+	path = webapp
+	url = https://github.com/giottobright/webapp.git
