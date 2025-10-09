@@ -18,7 +18,7 @@
 4. Перейдите в `webapp/` и установите зависимости: `npm i`.
 
 ## Запуск / Çalıştırma
-- Backend (бот + API): `python -m app.main`
+- Backend (бот + API): `python back/start.py` (PaaS/Timeweb) или `python -m app.main` (локально)
 - Frontend (webapp dev): `cd webapp && npm run dev`
 
 ## Переменные окружения / Ortam Değişkenleri
