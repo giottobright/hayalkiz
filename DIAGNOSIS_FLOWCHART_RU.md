@@ -216,3 +216,5 @@ curl https://giottobright-back-3800.twc1.net/ready
 **Готовы к решению?**  
 → Читайте **[PROD_FIX_STEPS_RU.md](PROD_FIX_STEPS_RU.md)** для пошаговой инструкции
 
+
+

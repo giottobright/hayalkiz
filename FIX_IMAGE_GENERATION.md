@@ -145,3 +145,5 @@ journalctl -u your-app-name -f
 - Документация Gemini API: https://ai.google.dev/
 - Документация Flux API: https://docs.bfl.ml/
 
+
+
