@@ -1,19 +1,32 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyc
 .venv/
 venv/
 
 # Node
 webapp/node_modules/
 
-
-# Env/Secrets
+# Env/Secrets — never commit
 .env
+.env.*
+!.env.example
 *.env
 keys.env
+*.conf
+*.ovpn
+*.pem
+*.key
 
-# Data
+# Data, database dumps (contain personal data)
 /data/
 *.db
+*.dump
+*_dump.sql
+*.sql.gz
+backups/
+
+# Local notes and tooling
+.claude/
+testtest.md
+clickup_import.py
