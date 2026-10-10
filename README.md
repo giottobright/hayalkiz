@@ -28,7 +28,8 @@ operations — is in `back/README.md` (English) and `back/README.ru.md` (Russian
 
 - Telegram Stars: auto-renewing subscriptions, paid gifts, refunds, idempotent payment processing
 - Server-side plans and limits with atomic usage accounting
-- Switchable LLM provider (OpenAI / OpenRouter / Venice) and content mode (SFW by default)
+- One OpenRouter key for all AI (chat, memory, selfies, video, voice); switchable content mode (SFW by default)
+- Break-even pricing: Premium 750 ★, VIP 1500 ★, one-time packs (see `back/docs/PRICING.md`)
 - 18+ age gate, content filter, data deletion on request, chat history retention
 - Admin commands and revenue-vs-cost economics endpoint
 - Tests and CI in both submodules

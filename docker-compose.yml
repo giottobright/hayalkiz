@@ -1,6 +1,6 @@
 # Full stack: backend + Mini App + PostgreSQL (pgvector) + Redis.
 #   git submodule update --init --recursive
-#   cp back/.env.example back/.env        # fill TELEGRAM_BOT_TOKEN, OPENAI_API_KEY, DB_PASSWORD, WEBAPP_URL,
+#   cp back/.env.example back/.env        # fill TELEGRAM_BOT_TOKEN, OPENROUTER_API_KEY, DB_PASSWORD, WEBAPP_URL,
 #                                         # WEBHOOK_URL and PUBLIC_API_URL
 #   docker compose --env-file back/.env up -d --build
 # Put a TLS reverse proxy in front: api.example.com → :8000, app.example.com → :8080.
